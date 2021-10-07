@@ -1,0 +1,4 @@
+<!--pages/home/detail/detail.wxml-->
+<text style="font-size: 56rpx;">{{info.title}}</text>
+
+<rich-text nodes="{{info.html}}"></rich-text>

@@ -1,0 +1,16 @@
+.home_add_article{
+  margin: 50rpx 125rpx;
+  width: 500rpx;
+  height: 96rpx;
+  border-radius: 15rpx;
+  background-color: #1d6974;
+  font-size: 34rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 96rpx;
+}
+
+.img_size{
+  width: 220rpx;
+  height: 220rpx;
+}

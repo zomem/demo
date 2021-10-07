@@ -1,0 +1,17 @@
+
+
+<block wx:if="{{hasUserInfo}}">
+  <block wx:for="{{list}}" wx:key="index" >
+    <view class="" bindtap="navToDetail" data-aid="{{item.id}}">
+      <image src="{{basefile + item.cover_url}}" class="img_size" mode="aspectFill" />
+      <text>{{item.title}}</text>
+    </view>
+  </block>
+  
+  <view bindtap="navToAdd" class="home_add_article">
+    添加文章
+  </view>
+</block>
+<block wx:else>
+  <button bindtap="login"> 登录 </button>
+</block>
