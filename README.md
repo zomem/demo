@@ -1,6 +1,33 @@
-#### 文章小程序全栈开发，从入门到上线  
+## 文章小程序全栈开发  
 
-教程地址列表  
+#### 技术框架   
+|类型|技术|
+| -- | --|
+|后台|express|
+|小程序|微信原生开发|
+|数据库|Mysql和MongoDB|
+|数据库连接|[access-db](https://github.com/zomem/access-db)|
+|服务器|阿里云轻量服务器centos7|
+|文件加速|阿里云cdn|
+  
+  
+#### 使用  
+**服务器**  
+  
+请将`server/.env_dev`重命名为`.env`。  
+```bash
+cd server
+npm install
+npm run start
+```
+  
+**小程序**  
+  
+用微信开发工具打开`mini`即可。
+  
+
+
+#### 教程地址列表  
   
 [文章小程序全栈开发，从入门到上线，第1节——准备](https://segmentfault.com/a/1190000040775333)  
   
