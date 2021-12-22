@@ -15,9 +15,9 @@
   
   
 #### 使用  
-
+  
 **数据库**
-将`bidu.sql`导入到mysql数据库。并在`.env`里配置mysql用户和密码  
+将`bidu.sql`导入到mysql数据库。并在`.env`里配置mysql用户和密码(mysql5.x的，请导入bidu_5.sql)  
   
 **服务器**  
   
