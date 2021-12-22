@@ -12,9 +12,12 @@
   
   
 #### 使用  
+
+**数据库**
+将`bidu.sql`导入到mysql数据库。并在`.env`里配置mysql用户和密码  
+  
 **服务器**  
   
-请将`server/.env_dev`重命名为`.env`。  
 ```bash
 cd server
 npm install

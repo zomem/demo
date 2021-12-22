@@ -29,7 +29,6 @@ client/package-lock.json
 # server
 server/node_modules
 server/yarn.lock
-server/.env
 server/logs
 client/.vscode
 server/build
