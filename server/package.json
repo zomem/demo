@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "access-db": "^0.0.6",
+    "access-db": "^0.1.4",
     "axios": "^0.22.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
